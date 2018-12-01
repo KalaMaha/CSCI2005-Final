@@ -1,0 +1,93 @@
+html {
+    background-image: url(../images/tiling_ivy_texture_by_roseenglish-d41b8kl.jpg);
+    background-repeat: repeat;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+h1 {
+    font-family: sans-serif;
+    color:aliceblue;
+}
+#shopping a {
+    color: grey;
+    padding-right: 25px;
+}
+#shopping {
+    background-color: black;
+    padding: 10px;
+    text-align: right;
+}
+#website a {
+    color: black;
+    padding-right: 25px;
+}
+#website{
+    border:solid 1px;
+    background-color:lightgrey;
+    padding: 10px;
+}
+footer {
+    background-color: black;
+    padding: 10px;
+    text-align: center;
+    color: grey;
+    clear: left;
+}
+article {
+    background-color: white;
+    border: solid 1px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+h3 {
+    border-bottom: solid 1px;
+}
+figure {
+    width: 288px;
+    float: left;
+}
+#price {
+    color: red;
+}
+#buttons {
+    border: solid 1px;
+    padding: 10px;
+    text-align: center;
+}
+#rightopic {
+    overflow: auto;
+    padding-left: 10px;
+}
+
+#simProd1 {
+    width: 180px;
+    border: solid 1px;
+    margin: 10px;
+    padding: 5px;
+    float: left;
+}
+#simProd2 {
+    width: 190px;
+    border: solid 1px;
+    margin: 10px;
+    padding: 5px;
+    float: left;
+}
+#simProd3 {
+    width: 180px;
+    border: solid 1px;
+    padding: 5px;
+    margin: 10px;
+    float: left;
+}
+#simProd4 {
+    width: 180px;
+    border: solid 1px;
+    padding: 5px;
+    margin: 10px;
+    float: left;
+}
+label {
+   font-family: sans-serif;
+}

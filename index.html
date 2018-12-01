@@ -1,24 +1,40 @@
 ﻿<!DOCTYPE html>
-
-<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-    <meta charset="utf-8" />
+    <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
     <title>Tree Identification Catelog</title>
     <link rel="stylesheet" href="css/styles.css" />
+    <style type="text/css"></style>
+    <script defer src="js/script.js"></script>
 </head>
-<body>
-    <nav id="shopping">
+<body id="main">
+    <nav id="shoppingNav">
         <a href="create account.html">Create an Account</a>
-        <a href="Identification.html">Identification</a>
         <a href="#">Shopping Cart</a>
         <a href="#">Checkout</a>
     </nav>
-    <h1>Tree Identificaton</h1>
-    <nav id="website">
+    <h1>Home</h1>
+    <span style="font-size:30px;cursor:pointer;color:rgb(37, 48, 59);" onclick="openNav()">&#9776; Nav Menu</span>
+    <nav id="websiteNav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
         <a href="index.html">Home</a>
         <a href="#">About Us</a>
         <a href="catalog.html">Tree Catelog</a>
-        <a href="#">Artists</a>
-    </nav>
+        <a href="forum.html">Forum</a>
+        <a href="identification.html">Upload Pictures</a>
+        <a href="tree tracker.html">Tree Tracker</a>
+        <a href="cool tree.html">Cool Tree</a>
+    </nav>    
+    <article>
+        <p>On this website you can: </p>
+        <ul>
+            <li>contribute to a forum and ask questions about trees</li>
+            <li>upload pictures to identify tree, see all the pictures uploaded</li>
+            <li>learn more about your trees</li>
+            <li>learn more about a tree through a picture that can be clicked on</li>
+            <li>database of locations of tree species</li>
+            <li>store to buy a mug, a t-shirt, or a cap</li>
+        </ul>
+    </article>
 </body>
 </html>

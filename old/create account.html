@@ -1,0 +1,140 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Tree Identification Catelog</title>
+    <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+    <nav id="shopping">
+        <a href="create account.html">Create an Account</a>
+        <a href="Identification.html">Identification</a>
+        <a href="#">Shopping Cart</a>
+        <a href="#">Checkout</a>
+    </nav>
+    <h1>Tree Identificaton</h1>
+    <nav id="website">
+        <a href="index.html">Home</a>
+        <a href="#">About Us</a>
+        <a href="catalog.html">Tree Catelog</a>
+        <a href="#">Artists</a>
+    </nav>
+
+    <form method="get" action="http://randyconnolly.com/tests/process.php">
+        <article>
+            <h2>Customer Registration</h2>
+            <h3>1. User Info</h3>
+            <table>
+                <tr>
+                    <td>
+                        <label>First Name</label> <br />
+                        <input type="text" id="first" autofocus/>
+                    </td>
+                    <td>
+                        <label>Last Name</label> <br />
+                        <input type="text" id="last" />
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <label>Email</label> <br />
+                        <input type="email" size="45" placeholder="format for email is xxx@yyy.zzz" id="email"/>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Password</label> <br />
+                        <input type="password" placeholder="at least 8 characters" id="pass1"/>
+                    </td>
+                    <td>
+                        <label>Password Repeat</label> <br />
+                        <input type="password" placeholder="at least 8 characters" id="pass2" />
+                    </td>
+                </tr>
+            </table>
+
+            <h3>2. Location</h3>
+            <table>
+                <tr>
+                    <td colspan="3">
+                        <label>Address</label> <br />
+                        <input type="text" size="45" id="address"/>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>City</label> <br />
+                        <input type="text" id="city"/>
+                    </td>
+                    <td>
+                        <label>State</label> <br />
+                        <input type="text" size="2" id="state"/>
+                    </td>
+                    <td>
+                        <label>Zip</label> <br />
+                        <input type="text" size="5" id="zip"/>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Phone</label> <br />
+                        <input type="tel" placeholder="NNN-NNN-NNNN" pattern="[0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9]" id="phone"/>
+                    </td>
+                    <td>
+                        <label>Country</label> <br />
+                        <select id="country">
+                            <option> Choose Country </option>
+                            <option> USA </option>
+                            <option> France </option>
+                            <option> Canada </option>
+                        </select>
+                    </td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Continent</label> <br />
+                        <input type="radio" /> North America <br />
+                        <input type="radio" /> Europea <br />
+                        <input type="radio" /> North America <br />
+                    </td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </table>
+
+            <h3>3. Personal Details</h3>
+            <table>
+                <tr>
+                    <td>
+                        <label>Birth Day</label> <br />
+                        <input type="date" id="birthday"/>
+                    </td>
+                    <td>
+                        <label>Favorite Color</label> <br />
+                        <input type="color" id="color" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Interest In Art</label> <br />
+                        Minimal<input type="range" id="interest"/>Love it!
+                    </td>
+                    <td></td>
+                </tr>
+            </table>
+
+            <h3>4. All Done</h3>
+            <input type="checkbox" name="terms" value="1" id="agree" required/> I agree to the <a href="#">terms of the site.</a>
+            <br /><br />
+            <button type="submit"><img src="images/button_ok.png" alt="button_ok" />Sign me up!</button>
+        </article>
+    </form>
+
+    <footer>
+        <small>All images are copyright to their owners. This is just a hypothetical cite &copy; 2014 Copyright Art Store</small>
+    </footer>
+
+</body>
+</html>

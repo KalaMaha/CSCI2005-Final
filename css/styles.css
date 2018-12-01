@@ -1,93 +1,112 @@
-html {
-    background-image: url(../images/tiling_ivy_texture_by_roseenglish-d41b8kl.jpg);
-    background-repeat: repeat;
+﻿@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+
+body{
+    background-image: url('../images/canvas-rough-hemp-yellow.jpg');
     margin-left: 10%;
-    margin-right: 10%;
+	margin-right: 10%;
+	color: white;
 }
 h1 {
     font-family: sans-serif;
-    color:aliceblue;
+    color:rgb(33, 37, 41);
 }
-#shopping a {
-    color: grey;
-    padding-right: 25px;
+#map {
+    height: 500px;
 }
-#shopping {
+#tree {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+#shoppingNav {
     background-color: black;
     padding: 10px;
     text-align: right;
 }
-#website a {
-    color: black;
+#shoppingNav a {
+    color: grey;
     padding-right: 25px;
 }
-#website{
+
+#websiteNav {
     border:solid 1px;
-    background-color:lightgrey;
-    padding: 10px;
+    background-color:rgb(39, 74, 139);
+    height: 100%;
+    width: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
 }
-footer {
-    background-color: black;
-    padding: 10px;
-    text-align: center;
-    color: grey;
-    clear: left;
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+    display: block;
+    transition: 0.2s;
 }
+
+.sidenav a:hover {
+    color: #1caa46;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
 article {
     background-color: white;
     border: solid 1px;
     margin-top: 20px;
     margin-bottom: 20px;
     padding: 10px;
-}
-h3 {
-    border-bottom: solid 1px;
-}
-figure {
-    width: 288px;
-    float: left;
-}
-#price {
-    color: red;
-}
-#buttons {
-    border: solid 1px;
-    padding: 10px;
-    text-align: center;
-}
-#rightopic {
-    overflow: auto;
-    padding-left: 10px;
+    color: black;
 }
 
-#simProd1 {
-    width: 180px;
-    border: solid 1px;
-    margin: 10px;
-    padding: 5px;
-    float: left;
-}
-#simProd2 {
-    width: 190px;
-    border: solid 1px;
-    margin: 10px;
-    padding: 5px;
-    float: left;
-}
-#simProd3 {
-    width: 180px;
-    border: solid 1px;
-    padding: 5px;
-    margin: 10px;
-    float: left;
-}
-#simProd4 {
-    width: 180px;
-    border: solid 1px;
-    padding: 5px;
-    margin: 10px;
-    float: left;
-}
 label {
-   font-family: sans-serif;
-}
+    font-family: sans-serif;
+ }
+
+/* .sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+} */
+
+/* h3 {
+    border-bottom: solid 1px;
+} */
+
+/* #buttons:hover {
+    border: solid 1px;
+    padding: 5px;
+    text-align: center;
+} */
+
+/* footer {
+    background-color: black;
+    padding: 10px;
+    text-align: center;
+    color: grey;
+    clear: left;
+} */

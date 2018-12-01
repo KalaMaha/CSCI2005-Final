@@ -1,0 +1,50 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+    <title>Tree Tracking Map</title>
+    <link rel="stylesheet" href="css/styles.css" />
+	<meta name="viewport" content="initial-scale=1.0" />
+	<script src="js/map.js"></script>
+    <script async defer  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAH2gMrOYaPNOMUX-hHqaiZhqNTVcFo1WM&callback=initMap"></script>
+    <script src="js/markerclusterer.js"></script>
+    <script src="js/script.js"></script>
+</head>
+<body id="main">
+    <nav id="shoppingNav">
+        <a href="create account.html">Create an Account</a>
+        <a href="#">Shopping Cart</a>
+        <a href="#">Checkout</a>
+    </nav>
+    <h1>Tree Tracking Map</h1>
+    <span style="font-size:30px;cursor:pointer;color:rgb(37, 48, 59);" onclick="openNav()">&#9776; Nav Menu</span>
+    <nav id="websiteNav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="index.html">Home</a>
+        <a href="#">About Us</a>
+        <a href="catalog.html">Tree Catelog</a>
+        <a href="forum.html">Forum</a>
+        <a href="identification.html">Upload Pictures</a>
+        <a href="identification.html">Tree Tracker</a>
+        <a href="cool tree.html">Cool Tree</a>
+    </nav>
+    <article>
+        <form>
+            <label>Click on the map or enter an address to drop a tree on the map: </label>
+            <input id="address" type="text" value="Minneapolis, MN" onfocus="this.value=''" />
+            <input id="buttons" type="button" value="Encode" onclick="codeAddress()" />            
+        </form>
+    </article>
+    <article id="map">
+        <!--<div id="map" class="map"></div>-->
+    </article>
+    <article>
+        <form>
+            <label>Next, drag the marker to a precise location, then click the </label><input id="buttons" type="button" value="Submit" onclick="recordMarker()" /><label> button to store the marker's location.</label>
+            <input id="buttons" type="button" value="Delete Markers" onclick="deleteMarkers()" /> <input id="buttons" type="button" value="State View" onclick="stateView()" /> <input id="buttons" type="button" value="City View" onclick="cityView()" />
+            <!--<input type="button" value="Zoom to Markers" onclick="markersView()" />-->
+            <!--<label>Refresh the map to view saved markers: </label>-->
+        </form>
+    </article>
+</body>
+</html>

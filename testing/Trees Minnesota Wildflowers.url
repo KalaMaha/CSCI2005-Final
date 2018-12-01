@@ -1,0 +1,9 @@
+[DEFAULT]
+BASEURL=https://www.minnesotawildflowers.info/page/trees
+[{000214A0-0000-0000-C000-000000000046}]
+Prop3=19,11
+[InternetShortcut]
+IDList=
+URL=https://www.minnesotawildflowers.info/page/trees
+IconFile=https://www.minnesotawildflowers.info/includes/images/favicon.png
+IconIndex=1
